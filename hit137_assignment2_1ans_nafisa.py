@@ -126,7 +126,7 @@ def main():
  with open("encrypted_text.txt", "w") as f:
     f.write(encrypted_text)
 
- #files.download("encrypted_text.txt")
+ files.download("encrypted_text.txt")
  print(encrypted_text)
  print("File have been downloaded in the name of encrypted_text.txt ")
 
@@ -140,7 +140,7 @@ def main():
 
  # Download decrypted file
  print(decrypted_text)
- #files.download("decrypted_text.txt")
+ files.download("decrypted_text.txt")
  print("Decrypted file is downloaded as decrypted_text.txt")
 
  #Verification
